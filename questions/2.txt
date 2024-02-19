@@ -1,0 +1,6 @@
+--x-
+Which command change directory in Linux?
+ls
+pwd
+cd
+ps
