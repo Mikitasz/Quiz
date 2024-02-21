@@ -1,0 +1,4 @@
+x-
+What is corret?
+adduser <username>
+useradd <username>
