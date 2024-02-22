@@ -1,0 +1,8 @@
+--x-xx
+Commands to view process(3)?
+process
+process ls
+ps
+vps
+top
+htop

@@ -1,0 +1,6 @@
+--x-
+Default value for updating top in Linux?
+6
+9
+3
+1

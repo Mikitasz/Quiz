@@ -1,0 +1,6 @@
+--x-
+What does ps x?
+Executeable process
+Untracked process
+Show us processes regardless of what terminal (if any) they are controlled by.
+Unknown process

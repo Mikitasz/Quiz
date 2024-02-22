@@ -1,0 +1,7 @@
+---x
+Which process runs after system start up?
+boot
+root
+bool
+init
+

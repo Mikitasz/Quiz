@@ -1,0 +1,5 @@
+-x-
+What is it TTY in ps command?
+PuTTy
+Controlling terminal
+Version

@@ -1,0 +1,6 @@
+-x-
+What means bg in Linux?
+List active jobs
+Place a job in the background
+Place a job in the foreground
+
