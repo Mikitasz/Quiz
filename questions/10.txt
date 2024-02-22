@@ -1,0 +1,6 @@
+--x-
+If you want to change the folder permission value from 777  to 444, whic umask use?
+0111
+0222
+0333
+0444

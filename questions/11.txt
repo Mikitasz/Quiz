@@ -1,0 +1,6 @@
+---x
+How to displaythe current mask as a symbolic value?
+-s
+-p
+-P
+-S

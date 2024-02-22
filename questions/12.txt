@@ -1,0 +1,6 @@
+x--
+What is it setgid?
+Changes the effective group ID from the real group ID if the real user to that of the file owner(group dir = group for file, group user != group ofr file)
+Init git
+Changes user gid
+
