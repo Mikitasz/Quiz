@@ -10,6 +10,7 @@ def main():
   
     all_files=os.listdir("questions")
     random.shuffle(all_files)
+    random.shuffle(all_files)
     wrong_anwser=0
     mistakes=[]
     anws=[]
