@@ -4,4 +4,3 @@ boot
 root
 bool
 init
-
