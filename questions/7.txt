@@ -1,0 +1,6 @@
+-x--
+What is it umask in Linux?
+A command in Linux used to uninstall software
+Umask controls the default premissions given to a file when it is created
+A Unix command for creating masks in image processing
+An encryption algorithm commonly used in network security

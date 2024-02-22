@@ -1,0 +1,6 @@
+x--x
+How to append groups for user(2)?
+usermod -a -G <group_name> <user_name>
+chgrp <group_name> <user_name>
+addgroup <group_name> <user_name>
+adduser <user_name> <group_name>

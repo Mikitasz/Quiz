@@ -1,0 +1,6 @@
+xx--
+How to Know The Groups of a Linux User(2)?
+groups
+id
+group ids
+gi
