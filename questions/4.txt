@@ -1,4 +1,4 @@
 -x
-What is corret?
+Which is the correct option?
 adduser -g <group_name> -s <shell> -c "user description" -m -d </home/<username>> <username>
 useradd -g <group_name> -s <shell> -c "user description" -m -d </home/<username>> <username>

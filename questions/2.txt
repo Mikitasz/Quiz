@@ -1,5 +1,5 @@
 --x-
-Which command change directory in Linux?
+What is the command used to change the directory in Linux?
 ls
 pwd
 cd

@@ -1,5 +1,5 @@
 x---
-Which command list content in Linux?
+What is the correct command to list the content of a directory in Linux?
 ls
 pwd
 cd

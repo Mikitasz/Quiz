@@ -1,4 +1,4 @@
 x-
-What is corret?
+Which is the correct option?
 adduser <username>
 useradd <username>
