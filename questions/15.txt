@@ -1,0 +1,7 @@
+-x-
+What is it setuid?
+Changes user id
+Run as owner of file 
+IDK
+
+

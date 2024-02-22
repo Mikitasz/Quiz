@@ -1,0 +1,6 @@
+---x
+How to change user password in Linux?
+changepassword
+password
+chpass
+passwd <user_name>

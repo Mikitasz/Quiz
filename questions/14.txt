@@ -1,0 +1,5 @@
+x--
+How to set setuid bit?
+chmod u+s program
+chmot +t <dir_name>
+chmod g+s <dir_name>
