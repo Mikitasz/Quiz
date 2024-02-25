@@ -1,0 +1,10 @@
+xx-x-x--
+Which commands can perform shutting down the system?
+halt
+poweroff
+off
+reboot
+boot
+shutdown
+stop
+kill

@@ -1,0 +1,6 @@
+-xx-
+Usage of kill command look like as(2)?
+kill PID -signal
+kill -signal PID
+kill PID
+kill <program_name>

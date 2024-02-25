@@ -1,0 +1,8 @@
+----x-
+Number of signal HUP?
+10
+11
+3
+6
+1
+7

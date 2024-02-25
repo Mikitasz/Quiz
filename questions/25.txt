@@ -1,0 +1,6 @@
+--x-
+How to list jobs in current shell?
+lsj
+list
+jobs
+ps

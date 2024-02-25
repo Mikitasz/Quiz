@@ -1,0 +1,4 @@
+-x
+Difference between set and printenv?
+set show onlt environment variables vs. printenv show shell and environment variables
+set show shell and environment variables vs. printenv show only environment variables

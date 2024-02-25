@@ -1,0 +1,4 @@
+x-
+Is it true that variable can be only shell and environment?
+true
+false

@@ -1,0 +1,12 @@
+x-xx-xxxx-
+Which signals exists?
+HUP
+START
+INT
+KILL
+RUN
+CONT
+TERM
+STOP
+TSTP
+PAUSE

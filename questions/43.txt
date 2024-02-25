@@ -1,0 +1,6 @@
+-x--
+Where change global startup settings, for all user(UBUTU)?
+/etc/global
+/etc/bash.bashrc
+/etc/global.startup
+~/.bashrc

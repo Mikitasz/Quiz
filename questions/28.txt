@@ -1,0 +1,6 @@
+---x
+If no signal is specified on the command line, which signal is send?
+stop
+start
+interrupt
+term

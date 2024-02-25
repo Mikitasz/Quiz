@@ -1,0 +1,4 @@
+x-
+Kill is command taht send signals to programs, is it true?
+true
+false

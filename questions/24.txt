@@ -1,0 +1,8 @@
+--x---
+Which character putting a process in the background?
+!
+$
+&
+#
+*
+@
