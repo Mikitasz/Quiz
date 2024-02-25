@@ -6,11 +6,16 @@ from termcolor import colored
 
 def help():
 
-    print(colored("You should enter only one value, if  u think it will be multiply options simple write \"123\"", "light_magenta"))
+    print(
+        colored(
+            'You should enter only one value, if  u think it will \
+             be multiply options simple write "123"',
+            "light_magenta",
+        )
+    )
 
 
 def main():
-
     all_files = os.listdir("questions")
     random.shuffle(all_files)
     random.shuffle(all_files)
@@ -20,8 +25,9 @@ def main():
     coorect_anwser = 0
     quest_number = 1
     for filename in all_files:
-        with open(f"questions/{filename}", 'r') as file:
+        with open(f"questions/{filename}", "r") as file:
 
+            os.system("cls" if os.name == "nt" else "clear")
             line_number = 1
             anwser_is = []
             for line in file:
@@ -29,15 +35,19 @@ def main():
                     case 1:
                         anwser_index = 0
                         for anwser_char in line:
-                            if anwser_char == 'x':
-                                anwser_is.append(anwser_index+1)
+                            if anwser_char == "x":
+                                anwser_is.append(anwser_index + 1)
                             anwser_index += 1
                         line_number += 1
                     case 2:
 
                         print(colored(f"{(len(line)+11)*'-'}", "yellow"))
                         print(
-                            colored(f"Question (#{quest_number}): {line[:-1]}", "blue"))
+                            colored(
+                                f"Question (#{quest_number}): {line[:-1]}",
+                                "blue",
+                            )
+                        )
                         print(colored(f"{(len(line)+11)*'-'}", "yellow"))
 
                         line_number += 1
@@ -67,7 +77,7 @@ def main():
 
             time.sleep(0.5)
 
-            os.system('cls' if os.name == 'nt' else 'clear')
+            os.system("cls" if os.name == "nt" else "clear")
 
     print(colored("-------------------------------------------", "magenta"))
     print(colored(f"All questions: {len(all_files)}", "yellow"))
