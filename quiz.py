@@ -48,6 +48,7 @@ class Quiz:
 # start quiz
 
     def run_quiz(self,):
+
         os.system('cls' if os.name == 'nt' else "clear")
         print(colored("Welcom, This is help for u!!!", 'light_magenta'))
         for key, value in self.all_questions.items():
@@ -60,10 +61,18 @@ class Quiz:
                 colored(f"{(len(self.all_questions[key]['question'])+16)*'-'}", 'yellow'))
             for i in range(len(value['options'])):
                 print(colored(f"{i+1}){value['options'][i][:-1]}"))
-            user_input = self.user_input()
-            for possition in set(user_input):
-                if int(possition) in value['anwsers']:
-                    self.correct += 1
+
+            while (True):
+                try:
+
+                    user_input = self.user_input()
+                    for possition in set(user_input):
+                        if int(possition) in value['anwsers']:
+                            self.correct += 1
+                    break
+
+                except ValueError:
+                    print("Ohhh,pleas input numbers from 1 to 9")
 
             if self.correct == len(value['anwsers']):
                 print(colored("Correct", "green"))
